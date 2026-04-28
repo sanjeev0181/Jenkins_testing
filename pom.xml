@@ -23,6 +23,20 @@
             <artifactId>jsmart-web</artifactId>
             <version>2.0.0</version>
         </dependency>
+
+        <!-- JAXB API dependency (for XML binding annotations) -->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.1</version>  <!-- JAXB API version -->
+        </dependency>
+
+        <!-- JAXB Runtime dependency (to provide JAXB implementation) -->
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+            <version>2.3.3</version>  <!-- JAXB Runtime version -->
+        </dependency>
     </dependencies>
 
     <build>
@@ -63,4 +77,3 @@
     </build>
 
 </project>
-
