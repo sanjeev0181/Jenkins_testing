@@ -4,7 +4,7 @@ pipeline {
         stage("mvn build"){
             steps {
                 sh "rm -rf ~/.m2/repository"
-                sh "mvn clean package"
+                sh "mvn clean package -X"
             }
         }
     }
